@@ -174,6 +174,13 @@ extern ZEND_DECLARE_MODULE_GLOBALS(runkit);
 #     define zend_hash_quick_del(ht, key, key_len, h) zend_hash_del(ht, key, key_len)
 #endif
 
+#if (PHP_MAJOR_VERSION == 5 && PHP_MINOR_VERSION >= 6) || (PHP_MAJOR_VERSION >= 6)
+#     define RUNKIT_ABOVE56                          1
+#else
+#     define RUNKIT_ABOVE56                          0
+#     define IS_CONSTANT_AST                         IS_CONSTANT_ARRAY
+#endif
+
 #ifdef ZEND_ACC_RETURN_REFERENCE
 #     define PHP_RUNKIT_ACC_RETURN_REFERENCE         ZEND_ACC_RETURN_REFERENCE
 #else
