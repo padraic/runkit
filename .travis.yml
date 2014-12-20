@@ -5,7 +5,7 @@ php:
   - 5.4
   - 5.3
 before_script:
-  - git clone git@github.com:padraic/runkit.git
+  - git clone https://github.com/padraic/runkit.git
   - cd runkit
   - phpize
   - ./configure
