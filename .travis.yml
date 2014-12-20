@@ -4,6 +4,8 @@ php:
   - 5.5
   - 5.4
   - 5.3
+env:
+  - TEST_PHP_ARGS="-q"
 before_script:
   - git clone https://github.com/padraic/runkit.git
   - cd runkit
