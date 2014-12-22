@@ -2,6 +2,7 @@ Runkit extension for PHP
 ========================
 
 For all those things you.... probably shouldn't have been doing anyway....
+[![Build Status](https://travis-ci.org/padraic/runkit.svg?branch=master)](https://travis-ci.org/padraic/runkit)
 
 Ubuntu Installation
 ===================
