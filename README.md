@@ -7,14 +7,14 @@ For all those things you.... probably shouldn't have been doing anyway....
 Ubuntu Installation
 ===================
 
-git clone git@github.com:padraic/runkit.git
-cd runkit
-phpize
-./configure
-make
-sudo make install
-sudo bash -c "echo 'extension=runkit.so' > /etc/php5/mods-available/runkit.ini"
-sudo php5enmod runkit
+  git clone git@github.com:padraic/runkit.git
+  cd runkit
+  phpize
+  ./configure
+  make
+  sudo make install
+  sudo bash -c "echo 'extension=runkit.so' > /etc/php5/mods-available/runkit.ini"
+  sudo php5enmod runkit
 
 About Runkit
 ============
