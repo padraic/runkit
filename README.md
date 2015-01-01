@@ -7,7 +7,7 @@ For all those things you.... probably shouldn't have been doing anyway....
 Ubuntu Installation
 ===================
 ```
-git clone git@github.com:padraic/runkit.git
+git clone https://github.com/padraic/runkit.git
 cd runkit
 phpize
 ./configure
